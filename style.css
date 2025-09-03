@@ -59,8 +59,8 @@ body::before, body::after {
 .main-hexagon {
     position: relative;
     left: -40%; /* Move o hexágono principal um pouco para a esquerda */
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: white;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -98,8 +98,8 @@ body::before, body::after {
 /* Estilo dos Hexágonos Secundários */
 .secondary-hexagon {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: white;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -425,4 +425,5 @@ h2.page-title {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
 
