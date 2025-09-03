@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="content-page">
+        <h2 class="page-title">Sobre Mim</h2>
+        <div class="bio-section">
+            <img src="{{ url_for('static', filename='images/pedro.gif') }}" alt="Minha Foto" class="my-photo">
+            
+            <img src="{{ url_for('static', filename='images/miranha.png') }}" alt="PNG decorativa" class="floating-image">
+            <img src="{{ url_for('static', filename='images/nerd.png') }}" alt="PNG decorativa" class="floating-image">
+            <img src="{{ url_for('static', filename='images/banana.png') }}" alt="PNG decorativa" class="floating-image">
+
+            <div class="bio-bubble">
+                <h3>Olá!</h3>
+                <p>Eu sou a Ana Clara Mendes, mas costumam me chamar só de Nana. Tenho 17 anos e basicamente sou uma mistura de café, fotografia, cozinha, desenhos e tudo que envolva arte. Também sou aquela pessoa que ama coisas nerds: RPG, livros, heróis, jogos… e claro, não podia faltar o meu favorito de todos: o Homem-Aranha.</p>
+                <br>
+                <p>Além disso, descobri que também amo programar. Nunca pensei que fosse me apaixonar por isso, mas aconteceu, e foi tão forte que decidi criar esse site aqui: o Programmer Friend. A ideia nasceu como uma forma de ajudar novos programadores a darem os primeiros passos sem se sentirem perdidos, mas também quis que fosse um espaço com a minha cara, cheio da minha essência. O nome do site foi ideia da minha mãe (que entendeu direitinho o que eu queria transmitir) e o layout veio do meu pai (que sempre manda bem nessas ideias).</p>
+                <br>
+                <p>Então, como o nome já diz, o Programmer Friend é tipo um “amigo programador”: aquele que te ensina, te apoia e te ajuda com o básico da programação. E quem sabe, junto com você, também cresce e descobre coisas novas nesse mundo incrível da tecnologia.</p>
+            </div>
+        </div>
+        <a href="/" class="back-button">Voltar para a Home</a>
+    </div>
+</body>
+</html>

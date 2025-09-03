@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenagem</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="content-page">
+        <h2 class="page-title">Homenagem</h2>
+        <div class="tribute-container">
+            <div class="tribute-card">
+                <img src="{{ url_for('static', filename='images/yuri.jpeg') }}" alt="Foto do Professor 1">
+                <h4>Professora Yuri</h4>
+                <p>A professora Yuri foi minha primeira professora de programação, e com ela eu sempre me senti muito à vontade para aprender. Suas explicações eram claras, leves e faziam com que algo que parecia complicado se tornasse simples. Uma das coisas mais marcantes é que ela entendia exatamente como cada aluno aprendia e adaptava o ensino para cada um de forma única. No meu caso, ela percebeu que eu só aprendia de verdade quando colocava a mão na massa, e que apenas escutar ou observar não funcionava comigo — algo que eu mesma nunca tinha notado. Além disso, antes de deixar de ser nossa professora, ela explicou ao Ricardo a forma como cada um aprendia, para que nos sentíssemos confortáveis nas aulas dele também. Foi graças a esse cuidado e dedicação que comecei a gostar tanto de programação e a enxergar nela um caminho possível para o futuro.</p>
+            </div>
+            <div class="tribute-card">
+                <img src="{{ url_for('static', filename='images/ricardo.jpeg') }}" alt="Foto do Professor 2">
+                <h4>Professor Ricardo</h4>
+                <p>Depois da professora Yuri, quem assumiu as aulas foi o professor Ricardo — indicado por ela mesma para continuar o trabalho. No começo, não foi fácil me acostumar com a mudança, já que eu estava muito apegado à forma dela ensinar. Mas, por ele ter recebido dela a visão sobre como cada aluno aprendia, a transição acabou sendo muito mais tranquila do que eu esperava. Com o tempo, consegui me adaptar e passei a gostar muito das aulas dele também. Mesmo que às vezes eu tenha dificuldade, aprendo bastante e percebo o quanto sua forma de ensinar contribuiu para meu desenvolvimento. Tanto ele quanto a professora Yuri foram fundamentais para despertar em mim o gosto pela programação, algo que eu nunca pensei em seguir.
+Espero um dia poder sentar com ele e com a professora Yuri, tomar um café e agradecer a eles por tudo.</p>
+            </div>
+        </div>
+        <a href="/" class="back-button">Voltar para a Home</a>
+    </div>
+</body>
+</html>

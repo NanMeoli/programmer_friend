@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> your programmer friend</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="homepage">
+    <div class="main-container">
+
+        <div class="left-section">
+            <div class="main-hexagon">
+                <div class="hexagon-inner">
+                    <h1 class="site-title">Programmer Friend</h1>
+                    <i class="fas fa-lightbulb colorful-bulb"></i>
+                </div>
+            </div>
+
+            <a href="/pagina1" class="secondary-hexagon hexagon-1">
+                <i class="fas fa-user-friends"></i>
+                <div class="line"></div>
+                <h4>Amigos</h4>
+            </a>
+            <a href="/pagina2" class="secondary-hexagon hexagon-2">
+                <i class="fas fa-question-circle"></i>
+                <div class="line"></div>
+                <h4>Perguntas</h4>
+            </a>
+            <a href="/pagina3" class="secondary-hexagon hexagon-3">
+                <i class="fas fa-book"></i>
+                <div class="line"></div>
+                <h4>Tutoriais</h4>
+            </a>
+            <a href="/pagina4" class="secondary-hexagon hexagon-4">
+                <i class="fas fa-address-card"></i>
+                <div class="line"></div>
+                <h4>Sobre Mim</h4>
+            </a>
+            <a href="/pagina5" class="secondary-hexagon hexagon-5">
+                <i class="fas fa-school"></i>
+                <div class="line"></div>
+                <h4>Homenagens</h4>
+            </a>
+        </div>
+
+        <div class="right-section">
+            <a href="/pagina1" class="small-circle circle-1">
+                <i class="fas fa-user-friends circle-icon colorful-1"></i>
+            </a>
+            <a href="/pagina2" class="small-circle circle-2">
+                <i class="fas fa-question-circle circle-icon colorful-2"></i>
+            </a>
+            <a href="/pagina3" class="small-circle circle-3">
+                <i class="fas fa-book circle-icon colorful-3"></i>
+            </a>
+            <a href="/pagina4" class="small-circle circle-4">
+                <i class="fas fa-address-card circle-icon colorful-4"></i>
+            </a>
+            <a href="/pagina5" class="small-circle circle-5">
+                <i class="fas fa-school circle-icon colorful-5"></i>
+            </a>
+            <div class="circle-line"></div>
+        </div>
+    </div>
+</body>
+</html>
